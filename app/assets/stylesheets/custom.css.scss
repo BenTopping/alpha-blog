@@ -1,1 +1,42 @@
+
 @import "bootstrap";
+
+#home{
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  margin-top:20px;
+  background-size: cover;
+  background-image: asset-url('background.jpg');
+  height: 550px;
+}
+
+.jumbotron h1{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge{
+  font-size:1.7em;
+}
+
+footer{
+  padding-top:5px;
+  margin-top: 50px;
+  position:absolute;
+  border-top: 1px solid gray;
+  bottom:5px;
+
+}
