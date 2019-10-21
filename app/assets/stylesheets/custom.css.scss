@@ -13,11 +13,48 @@ body{
   font-weight: bold;
 }
 
+.article-actions{
+  padding-top: 5px;
+  margin-top:10px;
+  margin-left:5px;
+  margin-bottom:10px;
+}
+
+.article-title{
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+.article-body{
+  border-top:1px solid gray;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.description{
+  margin-top:20px;
+}
+
+.description-text{
+  border-top:1px solid gray;
+  padding-top:15px;
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:20px;
+  font-size:18px
+}
+
 .card{
-  background-color:red;
-  margin: 10px 10px 0px 15px;
+  background-color:#404040;
+  margin-top:10px;
   padding-left:5px;
 }
+
+.card-danger{
+  background-color:#ff3333;
+  margin: 10px 10px 0px 15px;
+}
+
 
 .center{
   text-align: center;
