@@ -1,6 +1,11 @@
 
 @import "bootstrap";
 
+body{
+  background-color:#262626;
+  color:white;
+}
+
 #home{
   font-size: 1.7em;
   text-transform: uppercase;
@@ -35,8 +40,25 @@
 footer{
   padding-top:5px;
   margin-top: 50px;
-  position:absolute;
   border-top: 1px solid gray;
-  bottom:5px;
+  color:darkgray;
 
+}
+
+footer a:hover{
+  color: white;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+}
+
+footer ul li{
+  float: left;
+  margin-left:15px;
 }
