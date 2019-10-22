@@ -20,7 +20,6 @@ body{
 .article-meta-details{
   border-top:1px solid gray;
   margin-top:15px;
-
 }
 
 .article-actions{
@@ -45,11 +44,8 @@ body{
 }
 
 .pagination{
-  display:inline-block;
+  margin:auto;
   text-decoration: none;
-  padding: 5px;
-  margin-top:5px;
-  margin-bottom:5px;
   text-transform: uppercase;
   letter-spacing: 5px;
   background-color:#404040;
