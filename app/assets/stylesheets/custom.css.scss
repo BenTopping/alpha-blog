@@ -44,6 +44,17 @@ body{
   padding-left: 0;
 }
 
+.pagination{
+  display:inline-block;
+  text-decoration: none;
+  padding: 5px;
+  margin-top:5px;
+  margin-bottom:5px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color:#404040;
+}
+
 .description{
   margin-top:20px;
 }
