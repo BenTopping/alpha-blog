@@ -28,10 +28,13 @@
       <li class="nav-item">
         <%= link_to "Profile", user_path(session[:user_id]), class: "nav-link"%>
       </li>
-      <% if current_user.admin? %>
-        <li class="nav-item">
-          ADMIN
-        </li>
+    <% if current_user.admin? %>
+      <li class="nav-item">
+        ADMIN
+      </li>
+      <li class="nav-item">
+        <%= link_to "Categories", new_category_path, class: "nav-link"%>
+      </li>
       <% end %>
     <% end %>
   </ul>
