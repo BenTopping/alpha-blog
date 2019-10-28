@@ -17,6 +17,17 @@ body{
   margin-bottom: 10px;
 }
 
+.badge{
+  background-color: #262626;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight:bold;
+}
+
+.input_checkbox input{
+  width: auto !important;
+}
+
 .article-meta-details{
   border-top:1px solid gray;
   margin-top:15px;

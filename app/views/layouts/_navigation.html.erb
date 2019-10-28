@@ -24,6 +24,9 @@
         <%= link_to "Sign up", signup_path, class: "nav-link"%>
       </li>
     <% end %>
+    <li class="nav-item">
+      <%= link_to "Categories", categories_path, class: "nav-link"%>
+    </li>
     <% if logged_in? %>
       <li class="nav-item">
         <%= link_to "Profile", user_path(session[:user_id]), class: "nav-link"%>
@@ -32,10 +35,7 @@
       <li class="nav-item">
         ADMIN
       </li>
-      <li class="nav-item">
-        <%= link_to "Categories", new_category_path, class: "nav-link"%>
-      </li>
-      <% end %>
+    <% end %>
     <% end %>
   </ul>
 </nav>
