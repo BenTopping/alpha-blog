@@ -4,6 +4,11 @@
   <div class="pagination">
     <%= will_paginate%>
   </div>
+  <% if logged_in? and current_user.admin %>
+    <div class="col-sm-10">
+      <%= link_to "Create new category", new_category_path%>
+    </div>
+  <% end %>
 <% @categories.each do |category| %>
   <ul class="listing">
     <div class="row">
